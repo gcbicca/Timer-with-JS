@@ -1,0 +1,51 @@
+.main-timer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto;
+    height: 200px;
+    width: 300px;
+    border-radius: 30px;
+    background-color: #262E38;
+}
+
+
+.main-timer h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: monospace;
+    color: #F5F5F5;
+}
+
+
+
+.main-button {
+    border: none;
+    background: none;
+    background-color: blue;
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: #F5F5F5;
+    font-family: monospace;
+    font-weight: bold;
+    cursor: pointer;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.main-button:hover {
+    opacity: 0.7;
+}
+
+.main-button__container input:nth-child(3n+1) {
+    background-color: green;
+}
+
+.main-button__container input:nth-child(3n+2) {
+    background-color: gray;
+}
+
+.main-button__container input:nth-child(3n+3) {
+    background-color: red;
+}
